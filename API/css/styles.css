@@ -1,0 +1,124 @@
+*{
+    font-family: chivo;
+}
+
+body{
+    background-color: #ffc424;
+    overflow: hidden;
+}
+
+#titulo{
+    width: 100%;
+    background-color: black;
+    margin-bottom: 3%;
+}
+
+.grid{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card{
+    width: 22%;
+    float: left;
+    border-radius: 15px;
+    margin-bottom: 3%;
+    margin-left: 2.3%;
+    padding-bottom: 2%;
+    transform:scale(1);
+    transition: all 500ms ease-in-out;
+}
+
+.card:hover{
+    transform:scale(1.1);
+}
+
+h1{
+    font-family: Yantramanav;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2%;
+    color: #ffc424;
+}
+
+h3{
+    font-size: 1.2em!important;
+    text-align: center;
+    color: #ffc424!important;
+    padding-top: 4%!important;
+}
+
+h4{
+    font-size: 1em!important;
+    font-weight: normal!important;
+    margin-left: 5%;
+}
+
+img{
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+button{
+    border: none;
+    padding: 5%;
+    font-family: Yantramanav;
+    display: table;
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 50%;
+    border-radius: 30px;
+    background-color: #ffc424;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #221f1f;
+    color: #ffc424;
+}
+
+#resaltador{
+    background-color: #221f1f;
+    padding: 1%;
+}
+
+.separador{
+    border-top: solid 1px;
+    padding-top: 5%;
+}
+
+form{
+    width: 25%;
+    margin: 0 auto;
+    padding: 3%;
+}
+
+form input {
+    padding: 3%;
+    width: 60%;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+#botonEnviar{
+    width: 30%;
+    margin-left: 5%;
+    border: solid #ffc424;
+    border-radius: 10px;
+    background-color: black;
+    font-weight: bold;
+    color: #ffc424;
+}
+
+#botonEnviar:hover{
+    background-color: #ffc424;
+    color: black;
+}
